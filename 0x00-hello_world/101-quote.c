@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<unlistd.h>
+#include<unistd.h>
 /**
  * main - Entry
  * Description: 'Program that prints a string without using printf and puts'
