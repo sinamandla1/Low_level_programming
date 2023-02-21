@@ -9,7 +9,7 @@ int main(void)
 	char a;
 	int i = 0;
 
-	while (i = 10)
+	while (i <= 10)
 	{
 	for (a = 'a'; a <= 'z'; a++)
 	{
