@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include "main.h"
 /**
  * main - entry point
  * Description: a program that prints _putchar, followed by a new line.
@@ -7,6 +8,6 @@
  */
 int main(void)
 {
-	printf("_putchar");
+	printf("_putchar\n");
 	return (0);
 }
