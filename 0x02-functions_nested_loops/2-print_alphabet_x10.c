@@ -14,8 +14,7 @@ int main(void)
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		_putchar(a);
-	}
-	_putchar('\n');
-	i++;
+		_putchar('\n');
+		i++;
 	}
 }
