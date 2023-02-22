@@ -5,16 +5,16 @@
  * description: a function that computes the absolute value of an integer.
  * Return: The absolute integer
  */
-int _abs(int r)
+int _abs(int n)
 {
-	int r;
+	int n;
 
-	if (r >= 0)
+	if (n >= 0)
 	{
-		return (r);
+		return (n);
 	}
 	else
 	{
-		return (-r);
+		return (-n);
 	}
 }
