@@ -1,4 +1,4 @@
-#include "main..h"
+#include "main.h"
 /**
  * print_numbers - entry point
  * description -a function that print numbers 0 to 9
@@ -6,11 +6,11 @@
  */
 void print_numbers(void)
 {
-	int i;
+	int a;
 
-	for (i = '0'; i <= '9'; i++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		_putchar(i);
+		_putchar(a);
 	}
 	_putchar('\n');
 }
