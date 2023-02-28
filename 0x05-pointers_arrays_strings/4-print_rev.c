@@ -3,7 +3,7 @@
 /**
  * print_rev - entry point
  * Description: prints a string, in reverse, followed by a new line.
- * @a : declared variable
+ * @s : declared variable
  * return: a string
  */
 void print_rev(char *s)

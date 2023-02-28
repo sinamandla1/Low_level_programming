@@ -3,8 +3,7 @@
 /**
  * rev_string - entry point
  * Description: function that reverses a string.
- * @a: declared variable
- * @b: declared variable
+ * @s: string
  * Return: always 0 (success)
  */
 void rev_string(char *s)
