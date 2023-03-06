@@ -4,7 +4,7 @@
  * description: locates a character in a string.
  * @c: a character
  * @s: a string
- * return: a character
+ * Return: a pointer to the first occurrence of the character.
  */
 char *_strchr(char *s, char c)
 {
@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 		a++;
 	for (b = 0; b < a; b++)
 	{
-		if(c == s[b])
+		if (c == s[b])
 		{
 			s += b;
 			return (s);
