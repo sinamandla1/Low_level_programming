@@ -4,7 +4,7 @@
  * @size: size of array
  * @array: array to be used
  * @cmp: pointer to a function
- * Return: 0 if (success), (-1) if less than zero or fails
+ * Return: i if (success), (-1) if less than zero or fails
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -21,5 +21,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 			return (-1);
 		}
 	}
-	return (0);
+	return (-1);
 }
