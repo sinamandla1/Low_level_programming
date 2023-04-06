@@ -7,13 +7,13 @@
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-        unsigned int value = 0;
-        listint_t *Mynode;
+	unsigned int value = 0;
+	listint_t *Mynode;
 
-        if (head == NULL)
-        {
-                return (NULL);
-        }
+	if (head == NULL)
+	{
+		return (NULL);
+	}
 	while (value < index)
 	{
 		Mynode = head;
