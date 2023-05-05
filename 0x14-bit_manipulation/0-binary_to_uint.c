@@ -10,15 +10,15 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int res = 0;
 	unsigned int x = 0;
 
-	while (b[i])
+	while (b[x])
 	{
-		if (b[i] == '0')
+		if (b[x] == '0')
 		{
-			result = (result << 1);
+			res = (res << 1);
 		}
-		else if (b[i] == '1')
+		else if (b[x] == '1')
 		{
-			result = (result << 1) | 1;
+			res = (res << 1) | 1;
 		}
 		else
 		{
